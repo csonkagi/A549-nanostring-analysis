@@ -66,7 +66,7 @@ If you use this script or data, please cite:
 Csonka, G.I., Somlyai, I., Somlyai, G. IJMS, Manuscript ID: ijms-4072276.
 
 
-
+Generated 3D scatter plots of gene expression ratios, colored by reliability
 
 
 <img width="1400" height="900" alt="Figure_240errors" src="https://github.com/user-attachments/assets/6b04c3b8-6ae1-40bb-8a2b-21bbc2f77adc" />
