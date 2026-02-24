@@ -19,15 +19,21 @@ NanoString codeset: gene list, transcription count data at 40, 80, 150 ans 300 p
 
 /scripts/
 240mcanceran.py:
+
 This script processes NanoString gene expression data, calculates error propagation, classifies reliability, and generates 3D visualizations.
 How to Run
 
 Place your data file (240lung cancer genes data.xlsx) in the same directory as the script.
 Install required Python packages:
+
 import pandas as pd
+
 import numpy as np
+
 import matplotlib.pyplot as plt
+
 from matplotlib.lines import Line2D
+
 from mpl_toolkits.mplot3d import Axes3D
 
 Run the script:
