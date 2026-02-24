@@ -16,7 +16,7 @@ This repository enables reproducible transcriptomic analysis and supports furthe
 Contents
 /data/
 240lung cancer genes data.xlsx
-NanoString codeset: gene list, transcription count data at 40, 80, 150 ans 300 ppm after 72 h of incubation.
+NanoString codeset: gene list, transcription count data at 40, 80, 150 and 300 ppm after 72 h of incubation.
 
 consensus_cancer_gene.csv.xlsx
 
@@ -65,7 +65,19 @@ You can adjust filtering thresholds or color categories in the script to suit yo
 If you use this script or data, please cite:
 Csonka, G.I., Somlyai, I., Somlyai, G. IJMS, Manuscript ID: ijms-4072276.
 
+
+
+
 <img width="1400" height="900" alt="Figure_110errors" src="https://github.com/user-attachments/assets/6ae0da3f-bf78-47f4-96e1-d48a8543790b" />
 
+Relative gene expression reliability classification (all genes).
+Three dimensional scatter plot of summed relative propagated errors for the full set of 236 cancer related genes measured across 40, 80, and 300 ppm deuterium concentrations. Each point is color coded by reliability class: ≤ 0.30 (green), ≤ 0.45 (light green), ≤ 0.55 (yellow), ≤ 0.65 (light red), and > 0.65 (red). Axes represent expression ratios at the three concentrations, illustrating the distribution of measurement precision across the dataset.
+
+
+
 <img width="1400" height="900" alt="Figure_240errors" src="https://github.com/user-attachments/assets/6b04c3b8-6ae1-40bb-8a2b-21bbc2f77adc" />
+
+Relative gene expression reliability classification (filtered genes).
+Three dimensional scatter plot of the 110 genes retained after error propagation filtering (total propagated relative error < 0.55). The same color scheme is applied as in Fig. S1. This figure highlights the subset of genes with reproducible, low error measurements that form the basis for downstream clustering and pathway analysis.
+
 
