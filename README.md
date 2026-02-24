@@ -18,6 +18,9 @@ Contents
 240lung cancer genes data.xlsx
 NanoString codeset: gene list, transcription count data at 40, 80, 150 ans 300 ppm after 72 h of incubation.
 
+consensus_cancer_gene.csv.xlsx
+
+Consensus genes used to retain only consensus genes in the analysis
 
 /scripts/
 240mcanceran.py:
