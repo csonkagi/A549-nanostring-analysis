@@ -19,7 +19,7 @@ Contents
 /data/
 240lung cancer genes data.xlsx
 
-NanoString codeset: gene list, transcription count data at 40, 80, 150 and 300 ppm after 72 h of incubation.
+NanoString codeset: gene list, technical duplicates of transcription count data at 40, 80, 150 and 300 ppm after 72 h of incubation.
 
 consensus_cancer_gene.csv.xlsx
 
@@ -32,17 +32,7 @@ This script processes NanoString gene expression data, calculates error propagat
 How to Run
 
 Place your data file (240lung cancer genes data.xlsx) in the same directory as the script.
-Install required Python packages:
-
-import pandas as pd
-
-import numpy as np
-
-import matplotlib.pyplot as plt
-
-from matplotlib.lines import Line2D
-
-from mpl_toolkits.mplot3d import Axes3D
+Install required Python packages:pandas, numpy matplotlib.pyplot, matplotlib.lines import Line2D, mpl_toolkits.mplot3d import Axes3D
 
 Run the script:
 python 240mcanceran.py
@@ -55,12 +45,11 @@ Propagates errors and assigns a reliability category to each gene based on the s
 
 Exports:
 240 genes error propagation.xlsx: Full annotated dataset.
-110 genes error filtered.xlsx: High-quality, filtered gene subset.
-Generates 3D scatter plots of gene expression ratios, colored by reliability.
+110 genes error filtered.xlsx: High-quality, filtered gene subset (total_error < 0.55).
 
-Outputs
-Excel files with processed and filtered data.
-3D plots visualizing gene expression reliability.
+
+Outputs:
+Generates 3D scatter plots of gene expression ratios, colored by categories of total_error (e.g. 0.35, 0.45, 0.55, 0.65).
 
 Customization
 You can adjust filtering thresholds or color categories in the script to suit your analysis needs.
