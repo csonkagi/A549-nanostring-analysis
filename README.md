@@ -12,7 +12,7 @@ Included are:
 The full NanoString codeset (gene list, cluster assignments, functional annotations, quantitative metrics)
 Python scripts for data processing, statistical analysis, and visualization
 
-This repository enables reproducible transcriptomic analysis and supports further research in cancer genomics.
+This repository enables reproducible transcriptomic analysis and supports further research in cancer transcriptomics.
 
 Contents
 /data/
