@@ -3,7 +3,7 @@ This repository contains the NanoString codeset and associated Python scripts us
 
 Csonka, G.I., Somlyai, I., Somlyai, G.
 
-Deuterium Concentration as a Dual Regulator: Depletion and Enrichment Elicit Divergent Transcriptional Responses in A549 Lung Adenocarcinoma Cells
+## Deuterium Concentration as a Dual Regulator: Depletion and Enrichment Elicit Divergent Transcriptional Responses in A549 Lung Adenocarcinoma Cells
 
 International Journal of Molecular Sciences (IJMS), Manuscript ID: ijms-4072276.
 
