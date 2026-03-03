@@ -16,7 +16,7 @@ Python scripts for data processing, statistical analysis, and visualization
 This repository enables reproducible transcriptomic analysis and supports further research in cancer transcriptomics.
 
 Contents
-/data/
+
 240lung cancer genes data.xlsx
 
 NanoString gene list (236 genes, 4 of them were measured twice leading to 240 records), technical duplicates of transcription count data at 40, 80, 150 and 300 ppm after 72 h of incubation.
@@ -25,7 +25,7 @@ consensus_cancer_gene.csv.xlsx
 
 Consensus genes used to retain only consensus genes in the analysis
 
-/scripts/
+
 240mcanceran.py:
 
 This script processes NanoString gene expression data, calculates error propagation, classifies reliability, and generates 3D visualizations.
