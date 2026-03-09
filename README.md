@@ -1,5 +1,5 @@
 # NanoString Data Analysis for A549 Lung Adenocarcinoma
-This repository contains the NanoString codeset and associated Python scripts used for the analysis presented in the paper:
+This repository contains the NanoString data and associated Python scripts used for the analysis presented in the paper:
 
 Csonka, G.I., Somlyai, I., Somlyai, G.
 
